@@ -1,42 +1,13 @@
-# template
+# mucin
 
 
 
-**template for pathology atlas repositories**
-
-
-
-```
-see [make-html-WSI](https://github.com/pathologyatlas/make-html-WSI) for more information and [TODO](https://github.com/pathologyatlas/TODO) to add cases
-```
-
-```
-update html files:
-
-<title>TemplateEN</title>
-
-<meta name="keywords" content="TemplateEN, patoloji, atlas, pathology, whole slide image">
-
-<meta name="description" content="TemplateEN">
-
-```
-
-
-> do not forget to activate github pages for the new repository
+**mucicarmine for pathology atlas repositories**
 
 
 
 
-```zsh
-
-vips dzsave HE.svs HE
-
-```
-
-
-
-
-```{r language template, echo=FALSE, include=TRUE}
+```{r language mucin, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
 
@@ -47,7 +18,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-## TemplateTR {#sec-template}
+## mucicarmine {#sec-mucin}
 
 ```
 
@@ -56,7 +27,23 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## TemplateEN {#sec-template}
+## mucicarmine {#sec-mucicarmine}
+
+```
+
+
+```{asis, echo = (language == "TR")}
+
+## mucicarmine {#sec-mucicarmine}
+
+```
+
+
+
+
+```{asis, echo = (language == "EN")}
+
+## mucicarmine {#sec-mucin}
 
 ```
 
@@ -65,28 +52,28 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-**templateTR**
+**normal kolon mukozasında intrasitoplazmik müsini gösteren mucicarmine (müsikarmen) histokimyası**
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/template/HE.html)
+[Tam Ekran](https://images.patolojiatlasi.com/mucin/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://images.patolojiatlasi.com/template/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/mucin/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
 
 ```{comment} 
 asis, echo = (language == "TR")
 
-**templateTR**
+**mucicarmine**
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/template/HE_annotated.html)
+[Tam Ekran](https://images.patolojiatlasi.com/mucin/HE_annotated.html)
 
 İşaretlenmiş mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://images.patolojiatlasi.com/template/HE_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/mucin/HE_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -97,20 +84,20 @@ asis, echo = (language == "TR")
 
 
 
-<button id="tani-case-template-btn">Tanıyı Göster</button>
-<div id="answer-template" style="display: none;">templateTR</div>
+<button id="tani-case-mucin-btn">Tanıyı Göster</button>
+<div id="answer-mucin" style="display: none;">mucicarmine</div>
 
 <script>
-  const showAnswer-templateBtn = document.getElementById('tani-case-template-btn');
-  const answer-template = document.getElementById('answer-template');
+  const showAnswer-mucinBtn = document.getElementById('tani-case-mucin-btn');
+  const answer-mucin = document.getElementById('answer-mucin');
 
-  showAnswer-templateBtn.addEventListener('click', () => {
-    if (answer-template.style.display === 'none') {
-      answer-template.style.display = 'block';
-      showAnswer-templateBtn.textContent = 'Tanıyı Gizle';
+  showAnswer-mucinBtn.addEventListener('click', () => {
+    if (answer-mucin.style.display === 'none') {
+      answer-mucin.style.display = 'block';
+      showAnswer-mucinBtn.textContent = 'Tanıyı Gizle';
     } else {
-      answer-template.style.display = 'none';
-      showAnswer-templateBtn.textContent = 'Tanıyı Göster';
+      answer-mucin.style.display = 'none';
+      showAnswer-mucinBtn.textContent = 'Tanıyı Göster';
     }
   });
 </script>
@@ -127,14 +114,14 @@ asis, echo = (language == "TR")
 
 ```{asis, echo = (language == "EN")}
 
-**templateEN**
+**mucicarmine histochemistry stain showing intracellular mucin in a normal colon**
 
 
-[Full Screen](https://images.patolojiatlasi.com/template/HE.html)
+[Full Screen](https://images.patolojiatlasi.com/mucin/HE.html)
 
 See Microscopy with viewer: 
 
-<iframe src="https://images.patolojiatlasi.com/template/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/mucin/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -142,14 +129,14 @@ See Microscopy with viewer:
 ```{comment}
 asis, echo = (language == "EN")
 
-**templateEN**
+**mucicarmine**
 
 
-[Full Screen](https://images.patolojiatlasi.com/template/HE_annotated.html)
+[Full Screen](https://images.patolojiatlasi.com/mucin/HE_annotated.html)
 
 See Annotated Microscopy with viewer: 
 
-<iframe src="https://images.patolojiatlasi.com/template/HE_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/mucin/HE_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 
 
@@ -158,20 +145,20 @@ See Annotated Microscopy with viewer:
 ```{comment}
 asis, echo = (language == "EN")
 
-<button id="dx-case-template-btn">Show the Diagnosis</button>
-<div id="answer-template" style="display: none;">templateEN</div>
+<button id="dx-case-mucin-btn">Show the Diagnosis</button>
+<div id="answer-mucin" style="display: none;">mucicarmine</div>
 
 <script>
-  const showAnswer-templateBtn = document.getElementById('dx-case-template-btn');
-  const answer-template = document.getElementById('answer-template');
+  const showAnswer-mucinBtn = document.getElementById('dx-case-mucin-btn');
+  const answer-mucin = document.getElementById('answer-mucin');
 
-  showAnswer-templateBtn.addEventListener('click', () => {
-    if (answer-template.style.display === 'none') {
-      answer-template.style.display = 'block';
-      showAnswer-templateBtn.textContent = 'Hide the Diagnosis';
+  showAnswer-mucinBtn.addEventListener('click', () => {
+    if (answer-mucin.style.display === 'none') {
+      answer-mucin.style.display = 'block';
+      showAnswer-mucinBtn.textContent = 'Hide the Diagnosis';
     } else {
-      answer-template.style.display = 'none';
-      showAnswer-templateBtn.textContent = 'Show the Diagnosis';
+      answer-mucin.style.display = 'none';
+      showAnswer-mucinBtn.textContent = 'Show the Diagnosis';
     }
   });
 </script>
