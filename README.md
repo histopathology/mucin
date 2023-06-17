@@ -18,7 +18,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-## mucicarmine {#sec-mucin}
+## müsin {#sec-musin}
 
 ```
 
@@ -27,14 +27,14 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## mucicarmine {#sec-mucicarmine}
+## mucin {#sec-mucin}
 
 ```
 
 
 ```{asis, echo = (language == "TR")}
 
-## mucicarmine {#sec-mucicarmine}
+### mucicarmine {#sec-mucicarmine}
 
 ```
 
@@ -43,7 +43,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## mucicarmine {#sec-mucin}
+### mucicarmine {#sec-mucin}
 
 ```
 
