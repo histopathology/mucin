@@ -2,7 +2,7 @@
 
 
 
-**mucicarmine for pathology atlas repositories**
+**mucicarmine histochemistry stain showing intracellular mucin in a normal colon for pathology atlas repositories**
 
 
 
