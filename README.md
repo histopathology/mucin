@@ -55,11 +55,11 @@ source("./R/language.R")
 **normal kolon mukozasında intrasitoplazmik müsini gösteren mucicarmine (müsikarmen) histokimyası**
 
 
-[Tam Ekran](https://images.patolojiatlasi.com/mucin/HE.html)
+[Tam Ekran](https://images.patolojiatlasi.com/mucin/mucicarmine.html)
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://images.patolojiatlasi.com/mucin/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/mucin/mucicarmine.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -117,11 +117,11 @@ asis, echo = (language == "TR")
 **mucicarmine histochemistry stain showing intracellular mucin in a normal colon**
 
 
-[Full Screen](https://images.patolojiatlasi.com/mucin/HE.html)
+[Full Screen](https://images.patolojiatlasi.com/mucin/mucicarmine.html)
 
 See Microscopy with viewer: 
 
-<iframe src="https://images.patolojiatlasi.com/mucin/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/mucin/mucicarmine.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
 
